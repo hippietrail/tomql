@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C2F67B2F18C6AE00CEA17F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C2F67A2F18C6AD00CEA17F /* Quartz.framework */; };
+		54C2F6872F18C6AE00CEA17F /* tomql-preview-extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 54C2F6782F18C6AD00CEA17F /* tomql-preview-extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C2F6582F18C64000CEA17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C2F63F2F18C63F00CEA17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C2F6462F18C63F00CEA17F;
+			remoteInfo = "tomql-host-app";
+		};
+		54C2F6622F18C64000CEA17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C2F63F2F18C63F00CEA17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C2F6462F18C63F00CEA17F;
+			remoteInfo = "tomql-host-app";
+		};
+		54C2F6852F18C6AE00CEA17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C2F63F2F18C63F00CEA17F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C2F6772F18C6AD00CEA17F;
+			remoteInfo = "tomql-preview-extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54C2F68C2F18C6AE00CEA17F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				54C2F6872F18C6AE00CEA17F /* tomql-preview-extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54C2F6472F18C63F00CEA17F /* tomql-host-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tomql-host-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2F6572F18C64000CEA17F /* tomql-host-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tomql-host-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2F6612F18C64000CEA17F /* tomql-host-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tomql-host-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2F6782F18C6AD00CEA17F /* tomql-preview-extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tomql-preview-extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C2F67A2F18C6AD00CEA17F /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		54C2F6882F18C6AE00CEA17F /* Exceptions for "tomql-preview-extension" folder in "tomql-preview-extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 54C2F6772F18C6AD00CEA17F /* tomql-preview-extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		54C2F6492F18C63F00CEA17F /* tomql-host-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tomql-host-app";
+			sourceTree = "<group>";
+		};
+		54C2F65A2F18C64000CEA17F /* tomql-host-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tomql-host-appTests";
+			sourceTree = "<group>";
+		};
+		54C2F6642F18C64000CEA17F /* tomql-host-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tomql-host-appUITests";
+			sourceTree = "<group>";
+		};
+		54C2F67C2F18C6AE00CEA17F /* tomql-preview-extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				54C2F6882F18C6AE00CEA17F /* Exceptions for "tomql-preview-extension" folder in "tomql-preview-extension" target */,
+			);
+			path = "tomql-preview-extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C2F6442F18C63F00CEA17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F6542F18C64000CEA17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F65E2F18C64000CEA17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F6752F18C6AD00CEA17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C2F67B2F18C6AE00CEA17F /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C2F63E2F18C63F00CEA17F = {
+			isa = PBXGroup;
+			children = (
+				54C2F6492F18C63F00CEA17F /* tomql-host-app */,
+				54C2F65A2F18C64000CEA17F /* tomql-host-appTests */,
+				54C2F6642F18C64000CEA17F /* tomql-host-appUITests */,
+				54C2F67C2F18C6AE00CEA17F /* tomql-preview-extension */,
+				54C2F6792F18C6AD00CEA17F /* Frameworks */,
+				54C2F6482F18C63F00CEA17F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C2F6482F18C63F00CEA17F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C2F6472F18C63F00CEA17F /* tomql-host-app.app */,
+				54C2F6572F18C64000CEA17F /* tomql-host-appTests.xctest */,
+				54C2F6612F18C64000CEA17F /* tomql-host-appUITests.xctest */,
+				54C2F6782F18C6AD00CEA17F /* tomql-preview-extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C2F6792F18C6AD00CEA17F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C2F67A2F18C6AD00CEA17F /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C2F6462F18C63F00CEA17F /* tomql-host-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2F66B2F18C64000CEA17F /* Build configuration list for PBXNativeTarget "tomql-host-app" */;
+			buildPhases = (
+				54C2F6432F18C63F00CEA17F /* Sources */,
+				54C2F6442F18C63F00CEA17F /* Frameworks */,
+				54C2F6452F18C63F00CEA17F /* Resources */,
+				54C2F68C2F18C6AE00CEA17F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C2F6862F18C6AE00CEA17F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54C2F6492F18C63F00CEA17F /* tomql-host-app */,
+			);
+			name = "tomql-host-app";
+			packageProductDependencies = (
+			);
+			productName = "tomql-host-app";
+			productReference = 54C2F6472F18C63F00CEA17F /* tomql-host-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C2F6562F18C64000CEA17F /* tomql-host-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2F66E2F18C64000CEA17F /* Build configuration list for PBXNativeTarget "tomql-host-appTests" */;
+			buildPhases = (
+				54C2F6532F18C64000CEA17F /* Sources */,
+				54C2F6542F18C64000CEA17F /* Frameworks */,
+				54C2F6552F18C64000CEA17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C2F6592F18C64000CEA17F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54C2F65A2F18C64000CEA17F /* tomql-host-appTests */,
+			);
+			name = "tomql-host-appTests";
+			packageProductDependencies = (
+			);
+			productName = "tomql-host-appTests";
+			productReference = 54C2F6572F18C64000CEA17F /* tomql-host-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C2F6602F18C64000CEA17F /* tomql-host-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2F6712F18C64000CEA17F /* Build configuration list for PBXNativeTarget "tomql-host-appUITests" */;
+			buildPhases = (
+				54C2F65D2F18C64000CEA17F /* Sources */,
+				54C2F65E2F18C64000CEA17F /* Frameworks */,
+				54C2F65F2F18C64000CEA17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C2F6632F18C64000CEA17F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				54C2F6642F18C64000CEA17F /* tomql-host-appUITests */,
+			);
+			name = "tomql-host-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "tomql-host-appUITests";
+			productReference = 54C2F6612F18C64000CEA17F /* tomql-host-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		54C2F6772F18C6AD00CEA17F /* tomql-preview-extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C2F6892F18C6AE00CEA17F /* Build configuration list for PBXNativeTarget "tomql-preview-extension" */;
+			buildPhases = (
+				54C2F6742F18C6AD00CEA17F /* Sources */,
+				54C2F6752F18C6AD00CEA17F /* Frameworks */,
+				54C2F6762F18C6AD00CEA17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				54C2F67C2F18C6AE00CEA17F /* tomql-preview-extension */,
+			);
+			name = "tomql-preview-extension";
+			packageProductDependencies = (
+			);
+			productName = "tomql-preview-extension";
+			productReference = 54C2F6782F18C6AD00CEA17F /* tomql-preview-extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C2F63F2F18C63F00CEA17F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					54C2F6462F18C63F00CEA17F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					54C2F6562F18C64000CEA17F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 54C2F6462F18C63F00CEA17F;
+					};
+					54C2F6602F18C64000CEA17F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 54C2F6462F18C63F00CEA17F;
+					};
+					54C2F6772F18C6AD00CEA17F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 54C2F6422F18C63F00CEA17F /* Build configuration list for PBXProject "tomql-host-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C2F63E2F18C63F00CEA17F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 54C2F6482F18C63F00CEA17F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C2F6462F18C63F00CEA17F /* tomql-host-app */,
+				54C2F6562F18C64000CEA17F /* tomql-host-appTests */,
+				54C2F6602F18C64000CEA17F /* tomql-host-appUITests */,
+				54C2F6772F18C6AD00CEA17F /* tomql-preview-extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C2F6452F18C63F00CEA17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F6552F18C64000CEA17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F65F2F18C64000CEA17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F6762F18C6AD00CEA17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C2F6432F18C63F00CEA17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F6532F18C64000CEA17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F65D2F18C64000CEA17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C2F6742F18C6AD00CEA17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C2F6592F18C64000CEA17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C2F6462F18C63F00CEA17F /* tomql-host-app */;
+			targetProxy = 54C2F6582F18C64000CEA17F /* PBXContainerItemProxy */;
+		};
+		54C2F6632F18C64000CEA17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C2F6462F18C63F00CEA17F /* tomql-host-app */;
+			targetProxy = 54C2F6622F18C64000CEA17F /* PBXContainerItemProxy */;
+		};
+		54C2F6862F18C6AE00CEA17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C2F6772F18C6AD00CEA17F /* tomql-preview-extension */;
+			targetProxy = 54C2F6852F18C6AE00CEA17F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54C2F6692F18C64000CEA17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C2F66A2F18C64000CEA17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		54C2F66C2F18C64000CEA17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "tomql-host-app/Info-generated.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UTExportedTypeDeclarations = "{\n    UTTypeConformsTo =     (\n        \"public.plain-text\"\n    );\n    UTTypeDescription = \"TOML Configuration File\";\n    UTTypeIdentifier = \"com.hippietrail.toml\";\n    UTTypeTagSpecification =     {\n        \"public.filename-extension\" =         (\n            toml\n        );\n        \"public.mime-type\" =         (\n            \"application/toml\"\n        );\n    };\n}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54C2F66D2F18C64000CEA17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "tomql-host-app/Info-generated.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UTExportedTypeDeclarations = "{\n    UTTypeConformsTo =     (\n        \"public.plain-text\"\n    );\n    UTTypeDescription = \"TOML Configuration File\";\n    UTTypeIdentifier = \"com.hippietrail.toml\";\n    UTTypeTagSpecification =     {\n        \"public.filename-extension\" =         (\n            toml\n        );\n        \"public.mime-type\" =         (\n            \"application/toml\"\n        );\n    };\n}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		54C2F66F2F18C64000CEA17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomql-host-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tomql-host-app";
+			};
+			name = Debug;
+		};
+		54C2F6702F18C64000CEA17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomql-host-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tomql-host-app";
+			};
+			name = Release;
+		};
+		54C2F6722F18C64000CEA17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tomql-host-app";
+			};
+			name = Debug;
+		};
+		54C2F6732F18C64000CEA17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tomql-host-app";
+			};
+			name = Release;
+		};
+		54C2F68A2F18C6AE00CEA17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tomql-preview-extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tomql-preview-extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-app.tomql-preview-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54C2F68B2F18C6AE00CEA17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tomql-preview-extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "tomql-preview-extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hippietrail.tomql-host-app.tomql-preview-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C2F6422F18C63F00CEA17F /* Build configuration list for PBXProject "tomql-host-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2F6692F18C64000CEA17F /* Debug */,
+				54C2F66A2F18C64000CEA17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2F66B2F18C64000CEA17F /* Build configuration list for PBXNativeTarget "tomql-host-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2F66C2F18C64000CEA17F /* Debug */,
+				54C2F66D2F18C64000CEA17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2F66E2F18C64000CEA17F /* Build configuration list for PBXNativeTarget "tomql-host-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2F66F2F18C64000CEA17F /* Debug */,
+				54C2F6702F18C64000CEA17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2F6712F18C64000CEA17F /* Build configuration list for PBXNativeTarget "tomql-host-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2F6722F18C64000CEA17F /* Debug */,
+				54C2F6732F18C64000CEA17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C2F6892F18C6AE00CEA17F /* Build configuration list for PBXNativeTarget "tomql-preview-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C2F68A2F18C6AE00CEA17F /* Debug */,
+				54C2F68B2F18C6AE00CEA17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C2F63F2F18C63F00CEA17F /* Project object */;
+}

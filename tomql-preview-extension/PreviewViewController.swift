@@ -27,12 +27,14 @@ class PreviewViewController: NSViewController, QLPreviewingController {
                 if let textView = self.textView {
                     textView.string = contents
                     textView.isEditable = false
+                    textView.font = NSFont.monospacedSystemFont(ofSize: 12, weight: .regular)
                 }
             }
         } catch {
             DispatchQueue.main.async {
                 if let textView = self.textView {
                     textView.string = "Error reading file: \(error.localizedDescription)"
+                    textView.font = NSFont.monospacedSystemFont(ofSize: 12, weight: .regular)
                 }
             }
         }
